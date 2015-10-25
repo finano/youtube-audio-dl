@@ -1,6 +1,6 @@
 ---
 
-- name: Provision a {{ application_name }} web server
+- name: Provision a DEBUG {{ application_name }} web server
   hosts: 192.168.108.137
   sudo: yes
   sudo_user: root
