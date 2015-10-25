@@ -1,7 +1,7 @@
 ---
 
 - name: Provision a {{ application_name }} web server
-  hosts: all
+  hosts: 192.168.108.137
   sudo: yes
   sudo_user: root
   remote_user: root
